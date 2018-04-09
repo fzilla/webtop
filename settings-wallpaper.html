@@ -1,0 +1,50 @@
+
+<div data-page="settings-wallpaper">
+    <div class="row">
+        <div class="col-md-12">
+            <h3>Change Wallpaper</h3>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <ul class="wall-sortable">
+                <li class="wall-img-li wall-btn-add">
+                    <span class="wall-img-add"><i class="fa fa-plus"></i></span>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="wall-slide-show-options-container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="form-group">
+                    <span class="wall-slide-show"><i class="fa fa-square"></i><i class="fa fa-check-square"></i> Slide Show</span>
+                    <input type="file" class="wall-img-file" style="display: none">
+                </div>
+            </div>
+        </div>
+        <div class="row wall-slide-show-options" style="display: none">
+            <div class="col-md-12">
+                <div class="form-group">
+                    <label>Interval</label>
+                    <input type="number" class="form-control wall-int-time" title="Transition Time" value="1">
+                    <select class="form-control wall-int-spec" title="Transition Time">
+                        <option value="s">Second</option>
+                        <option value="m" selected>Minute</option>
+                        <option value="h">Hour</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>Transition</label>
+                    <select class="form-control wall-trans" title="Transition">
+                        <option value="fade" selected>Fade</option>
+                        <option value="slide">Slide</option>
+                        <option value="cube">Cube</option>
+                        <option value="coverflow">CoverFlow</option>
+                        <option value="flip">Flip</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

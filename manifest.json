@@ -1,0 +1,59 @@
+{
+
+  "manifest_version": 2,
+  "name": "Webtop",
+  "short_name": "Webtop",
+  "version": "1.0",
+  "author": "fzilla",
+
+  "description": "Webtop. It is a New Tab customizer. Manage New Tab page like desktop. Add Widgets, Set Wallpaper, Set Theme etc.",
+
+  "developer": {
+    "name": "Samar Yalini",
+    "url": "https://github.com/yaliniyalu"
+  },
+
+  "applications": {
+    "gecko": {
+      "id": "webtop@fzillaweb.com",
+      "strict_min_version": "42.0"
+    }
+  },
+
+  "icons": {
+    "48": "/assets/icons/icon.png",
+    "96": "/assets/icons/icon@2x.png",
+    "144": "/assets/icons/icon@3x.png",
+    "192": "/assets/icons/icon@4x.png"
+  },
+
+  "background": {
+    "scripts": ["assets/js/background.js"]
+  },
+
+  "browser_action": {
+    "browser_style": false,
+    "default_area": "navbar",
+    "default_icon" : "/assets/icons/icon.png",
+    "default_title": "Webtop"
+  },
+
+  "chrome_url_overrides" : {
+    "newtab": "index.html"
+  },
+
+  "chrome_settings_overrides" : {
+    "homepage": "index.html"
+  },
+
+  "permissions": [
+    "theme",
+    "tabs",
+    "activeTab",
+    "<all_urls>",
+    "storage",
+    "unlimitedStorage",
+    "cookies"
+  ]
+
+}

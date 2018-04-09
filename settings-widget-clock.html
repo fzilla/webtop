@@ -1,0 +1,85 @@
+
+<div data-page="settings-widget-clock">
+    <div class="row">
+        <div class="col-md-12">
+            <h3>Clock</h3>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <h4 class="sub-title">Colors</h4>
+            <table class="colors">
+                <tbody>
+                <tr data-color="dial">
+                    <td>Dial</td>
+                    <td><input type="color" class='color-picker' title="Dial" /></td>
+                </tr>
+                <tr data-color="second_hand">
+                    <td>Second Hand</td>
+                    <td><input type="color" class="color-picker" title="Second Hand" /></td>
+                </tr>
+                <tr data-color="minute_hand">
+                    <td>Minute Hand</td>
+                    <td><input type="color" class="color-picker" title="Minute Hand" /></td>
+                </tr>
+                <tr data-color="hour_hand">
+                    <td>Hour Hand</td>
+                    <td><input type="color" class="color-picker" title="Hour Hand" /></td>
+                </tr>
+                <tr data-color="alarm_hand">
+                    <td>Alarm Hand</td>
+                    <td><input type="color" class="color-picker" title="Alarm Hand" /></td>
+                </tr>
+                <tr data-color="alarm_hand_tip">
+                    <td>Alarm Hand Tip</td>
+                    <td><input type="color" class="color-picker" title="Alarm Hand Tip" /></td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="row reset-container">
+        <div class="col-md-12">
+            <a href="#" class="reset">Reset to Defaults</a>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <h4 class="sub-title">General</h4>
+            <div class="form-group">
+                <span class="show-numerals"><i class="fa fa-square"></i><i class="fa fa-check-square"></i> Show Numerals</span>
+            </div>
+        </div>
+        <div class="col-md-12">
+            <h4 class="sub-title">Text</h4>
+            <div class="form-group">
+                <p>Main Text</p>
+                <input type="text" name="main_text" class="form-control text" title="Main Text">
+            </div>
+            <div class="form-group">
+                <p>Sub Text</p>
+                <input type="text" name="sub_text" class="form-control text" title="Sub Text">
+            </div>
+        </div>
+        <div class="col-md-12">
+            <h4 class="sub-title">Alarm</h4>
+            <div class="form-group">
+                <span class="enable-alarm"><i class="fa fa-square"></i><i class="fa fa-check-square"></i> Enable Alarm</span>
+            </div>
+            <div class="alarm_settings" style="display: none">
+                <div class="form-group">
+                    <p>Time</p>
+                    <input type="text" class="alarm-time" title="Alarm Time">
+                </div>
+                <!--<div class="form-group">
+                    <span class="alarm-daily"><i class="fa fa-square"></i><i class="fa fa-check-square"></i> Daily Alarm</span>
+                </div>-->
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <p class="notify">*Changes takes place only after reload the page.</p>
+        </div>
+    </div>
+</div>
