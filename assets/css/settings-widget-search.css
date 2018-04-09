@@ -1,0 +1,41 @@
+[data-page=settings-widget-search] .search-engines {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+[data-page=settings-widget-search] .search-engines li {
+  list-style: none;
+}
+[data-page=settings-widget-search] .search-engines li p .check:not(.checked) {
+  visibility: hidden;
+  color: #ccc;
+}
+[data-page=settings-widget-search] .search-engines li p:hover .check {
+  visibility: visible;
+}
+[data-page=settings-widget-search] .search-engines li i {
+  padding: 0 2px;
+  cursor: pointer;
+}
+[data-page=settings-widget-search] .search-engines li i.visibility {
+  color: #ccc;
+}
+[data-page=settings-widget-search] .search-engines li i.visibility.visible {
+  color: #2ecc71;
+}
+[data-page=settings-widget-search] .enable-suggestions i {
+  cursor: pointer;
+}
+[data-page=settings-widget-search] .enable-suggestions i.fa-check-square {
+  display: none;
+}
+[data-page=settings-widget-search] .enable-suggestions.selected i.fa-check-square {
+  display: initial;
+}
+[data-page=settings-widget-search] .enable-suggestions.selected i.fa-square {
+  display: none;
+}
+[data-page=settings-widget-search] .notify {
+  font-size: small;
+  color: red;
+}

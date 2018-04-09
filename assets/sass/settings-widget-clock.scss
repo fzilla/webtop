@@ -1,0 +1,54 @@
+[data-page="settings-widget-clock"] {
+  .colors {
+    tbody{
+      tr {
+        td {
+          padding: 5px;
+        }
+      }
+    }
+  }
+
+  .sub-title {
+    font-weight: bold;
+    text-decoration: underline;
+  }
+
+  $list: show-numerals enable-alarm alarm-daily;
+  @each $check in $list {
+    .#{$check} {
+      i {
+        cursor: pointer;
+      }
+
+      i.fa-check-square {
+        display: none;
+      }
+    }
+
+    .#{$check}.selected {
+      i.fa-check-square {
+        display: initial;
+      }
+
+      i.fa-square {
+        display: none;
+      }
+    }
+  }
+
+  .reset-container {
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+    .reset {
+      text-decoration: none;
+    }
+  }
+
+  .notify {
+    font-size: small;
+    color: red;
+  }
+
+}

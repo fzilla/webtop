@@ -1,0 +1,120 @@
+[data-page="settings-theme"] {
+  .colors {
+    td {
+      padding: 5px;
+    }
+  }
+
+  .reset-container {
+    margin: 10px 5px;
+  }
+
+  .theme-image {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+
+    .theme-img-li {
+      list-style: none;
+      margin: 7px;
+      display: inline;
+      position: relative;
+      float: left;
+      cursor: pointer;
+
+      .theme-img {
+        width: 660px;
+        height: 44px;
+      }
+
+      .theme-select {
+        position: absolute;
+        top: 3px;
+        left: 3px;
+        color: #ff6e40;
+
+        .fa-square {
+          display: none;
+          font-size: large;
+        }
+
+        .fa-check-square {
+          display: none;
+          font-size: large;
+        }
+
+        .fa-square:hover {
+          text-shadow: 2px 2px 4px #000;
+        }
+
+        .fa-check-square:hover {
+          text-shadow: 2px 2px 4px #000;
+        }
+      }
+    }
+
+    .theme-img-li.selected {
+      border: 2px solid #ff6e40;
+      margin: 5px;
+
+      .theme-select .fa-check-square {
+        display: block;
+      }
+    }
+
+
+    .theme-img-li:not(.selected):hover .theme-select .fa-square {
+      display: block;
+    }
+
+    .theme-img-li.theme-btn-add {
+      background: #c9c9c9;
+      width: 660px;
+      height: 44px;
+
+      i {
+        position: absolute;
+        width: 100%;
+        text-align: center;
+        top: 32%;
+      }
+
+      .width {
+        display: block;
+        text-align: center;
+        font-size: x-small;
+        padding-top: 25px;
+      }
+    }
+
+    .theme-img-li.theme-btn-add:hover {
+      background: #e0e0e0;
+    }
+
+    .theme-img-li.theme-btn-add:active {
+      width: 655px;
+      height: 40px;
+      margin-top: 9px;
+      margin-left: 10px;
+      background: #e0e0e0;
+    }
+  }
+}
+
+#cropper-modal {
+  //display: none;
+  padding: 10px;
+  margin-right: 10px;
+
+  #crop-image {
+    width: 100%;
+  }
+
+  .crop-button-container {
+    text-align: right;
+
+    .crop-button {
+      margin-top: 10px;
+    }
+  }
+}

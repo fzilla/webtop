@@ -1,0 +1,32 @@
+[data-page=settings] {
+  margin: 5px 25px;
+  font-size: initial;
+}
+[data-page=settings] ul.pg-set-tab-list {
+  list-style: none;
+  margin: 15px 0 0;
+  border-right: 1px solid #ccc;
+  padding: 0 5px 0 0;
+}
+[data-page=settings] ul.pg-set-tab-list li {
+  list-style: none;
+  padding: 5px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin: 1px 0 1px;
+}
+[data-page=settings] ul.pg-set-tab-list li a {
+  text-decoration: none;
+  color: #d74107;
+}
+[data-page=settings] ul.pg-set-tab-list li:hover, [data-page=settings] ul.pg-set-tab-list li:active {
+  background: #dedede;
+  padding-left: 7px;
+}
+[data-page=settings] ul.pg-set-tab-list li.selected {
+  background: #d79e15;
+  padding-left: 7px;
+}
+[data-page=settings] ul.pg-set-tab-list li.selected a {
+  color: #fff;
+}

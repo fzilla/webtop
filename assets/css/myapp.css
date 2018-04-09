@@ -1,0 +1,123 @@
+
+
+/* Gridly */
+
+@import "../fonts/fira-sans/fira-sans.css";
+
+body {
+    font-family: "Fira Sans", serif;
+}
+
+.desktop_grid {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+    padding: 10px;
+}
+
+.wallpaper_slider {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+}
+
+.wallpaper_slider .swiper-wrapper {
+    z-index: 0;
+}
+
+.wallpaper_slider .swiper-wrapper img {
+    width: 100%;
+    height: 100%;
+}
+
+.widget_grid {
+    width: 90px;
+    height: 90px;
+    float: left;
+}
+
+.widget_container {
+    width: 90px;
+    height: 90px;
+    position: absolute;
+}
+
+.widget_container.shortcut:hover, .widget_container.shortcut:active {
+    background: #fff3;
+    border-radius: 5px;
+}
+
+.shortcut {
+    padding: 5px;
+    color: #FFFFFF;
+    text-shadow: 2px 2px 4px #000000;
+    text-align: center;
+}
+
+.shortcut p {
+    color: #FFFFFF;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.shortcut img {
+    width: 60px;
+    height: 60px;
+}
+
+.shortcut a, .shortcut a:active {
+    text-decoration: none;
+}
+
+.widget iframe {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+.widget .drag-handler {
+    display:  none;
+    position: absolute;
+    /*opacity: 0.5;*/
+    cursor: move;
+
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 25px 25px 0 0;
+    border-color: #696969 transparent transparent transparent;
+}
+
+.widget:hover .drag-handler {
+    display: block;
+    z-index: 5;
+    /*box-shadow: -5px -5px 4px #fff;*/
+}
+
+
+.hide {
+    display: none;
+}
+
+
+[data-page="shortcut"] {
+    padding: 15px 20px 15px 20px;
+}
+
+.error-msg {
+    color: #ff0000;
+}
+
+.jsPanel-hdr-toolbar, .jsPanel-headerbar {
+    padding: 0 5px;
+}
+
+.jsPanel .jsPanel-content {
+    font-family: "Fira Sans", serif;
+}

@@ -1,0 +1,37 @@
+[data-page="settings"] {
+  margin: 5px 25px;
+  font-size: initial;
+
+  ul.pg-set-tab-list {
+    list-style: none;
+    margin: 15px 0 0;
+    border-right: 1px solid #ccc;
+    padding: 0 5px 0 0;
+
+    li {
+      list-style: none;
+      padding: 5px;
+      cursor: pointer;
+      border-radius: 5px;
+      margin: 1px 0 1px;
+
+      a{
+        text-decoration: none;
+        color: #d74107;
+      }
+    }
+
+    li:hover, li:active {
+      background: #dedede;
+      padding-left: 7px;
+    }
+
+    li.selected {
+      background: #d79e15;
+      padding-left: 7px;
+      a {
+        color: #fff;
+      }
+    }
+  }
+}

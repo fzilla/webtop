@@ -1,0 +1,104 @@
+[data-page=settings-wallpaper] .wall-delete {
+  position: absolute;
+  right: 5px;
+  bottom: 3px;
+}
+[data-page=settings-wallpaper] .wall-delete a {
+  color: #fff;
+  text-shadow: 2px 2px 4px #000;
+}
+[data-page=settings-wallpaper] .wall-delete a:hover {
+  color: #ff0000;
+  text-shadow: 2px 2px 4px #fff;
+}
+[data-page=settings-wallpaper] .wall-img {
+  width: 120px;
+  height: 70px;
+}
+[data-page=settings-wallpaper] .wall-img-li {
+  list-style: none;
+  margin: 7px;
+  display: inline;
+  position: relative;
+  float: left;
+  cursor: pointer;
+}
+[data-page=settings-wallpaper] .wall-sortable {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+[data-page=settings-wallpaper] .wall-img-li.selected {
+  border: 2px solid #ff6e40;
+  margin: 5px;
+}
+[data-page=settings-wallpaper] .wall-select {
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  color: #ff6e40;
+}
+[data-page=settings-wallpaper] .wall-select .fa-square, [data-page=settings-wallpaper] .wall-select .fa-check-square {
+  display: none;
+  font-size: large;
+}
+[data-page=settings-wallpaper] .wall-select .fa-square:hover, [data-page=settings-wallpaper] .wall-select .fa-check-square:hover {
+  text-shadow: 2px 2px 4px #000;
+}
+[data-page=settings-wallpaper] .wall-img-li:not(.selected):hover .wall-select .fa-square {
+  display: block;
+}
+[data-page=settings-wallpaper] .wall-img-li.selected .wall-select .fa-check-square {
+  display: block;
+}
+[data-page=settings-wallpaper] .wall-img-li.system .wall-delete {
+  display: none;
+}
+[data-page=settings-wallpaper] .wall-slide-show .fa-check-square {
+  display: none;
+}
+[data-page=settings-wallpaper] .wall-slide-show.selected .fa-check-square {
+  display: initial;
+}
+[data-page=settings-wallpaper] .wall-slide-show.selected .fa-square {
+  display: none;
+}
+[data-page=settings-wallpaper] .wall-slide-show {
+  cursor: pointer;
+  font-size: larger;
+  width: 100%;
+}
+[data-page=settings-wallpaper] .wall-slide-show .fa {
+  font-size: larger;
+}
+[data-page=settings-wallpaper] .wall-slide-show-options-container {
+  margin: 7px;
+}
+[data-page=settings-wallpaper] .wall-slide-show-options label {
+  display: block;
+}
+[data-page=settings-wallpaper] .wall-slide-show-options input, [data-page=settings-wallpaper] .wall-slide-show-options select {
+  display: inline;
+  width: 100px;
+}
+[data-page=settings-wallpaper] .wall-img-li.wall-btn-add {
+  background: #c9c9c9;
+  width: 120px;
+  height: 70px;
+}
+[data-page=settings-wallpaper] .wall-img-li.wall-btn-add i {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  top: 40%;
+}
+[data-page=settings-wallpaper] .wall-img-li.wall-btn-add:hover {
+  background: #e0e0e0;
+}
+[data-page=settings-wallpaper] .wall-img-li.wall-btn-add:active {
+  width: 115px;
+  height: 66px;
+  margin-top: 9px;
+  margin-left: 10px;
+  background: #e0e0e0;
+}

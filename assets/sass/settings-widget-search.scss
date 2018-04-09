@@ -1,0 +1,62 @@
+[data-page="settings-widget-search"] {
+  .search-engines {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+
+    li {
+      list-style: none;
+
+      p {
+        .check:not(.checked) {
+          visibility: hidden;
+          color: #ccc;
+        }
+      }
+
+      p:hover {
+        .check {
+          visibility: visible;
+        }
+      }
+
+      i {
+        padding: 0 2px;
+        cursor: pointer;
+      }
+
+      i.visibility {
+        color: #ccc;
+      }
+
+      i.visibility.visible {
+        color: #2ecc71;
+      }
+    }
+  }
+
+  .enable-suggestions {
+    i {
+      cursor: pointer;
+    }
+
+    i.fa-check-square {
+      display: none;
+    }
+  }
+
+  .enable-suggestions.selected {
+    i.fa-check-square {
+      display: initial;
+    }
+
+    i.fa-square {
+      display: none;
+    }
+  }
+
+  .notify {
+    font-size: small;
+    color: red;
+  }
+}

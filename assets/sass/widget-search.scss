@@ -1,0 +1,226 @@
+[data-widget="web-search"] {
+  .search {
+    .wrapper {
+      height: auto;
+      width: auto;
+      min-width: 100%;
+      overflow: hidden;
+      background: transparent;
+      margin: 0;
+      position: static;
+    }
+
+    .form {
+      overflow: hidden;
+      position: relative;
+    }
+    .input-wrapper {
+      padding: 0 83px 0 0;
+      overflow: hidden;
+    }
+
+    .input {
+      width: 100%;
+    }
+
+    .input {
+      background: transparent;
+      -webkit-box-sizing: content-box;
+      -moz-box-sizing: content-box;
+      box-sizing: content-box;
+      height: 60px;
+      padding: 0 50px 0 22px;
+      border-radius: 35px;
+      border: 5px solid #888;
+      margin-top: 15px;
+      color: #fff;
+      font-size: 26px;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      text-shadow: 2px 2px 4px #000000;
+    }
+
+    .submit {
+      position: absolute;
+      right: 0;
+      top: 0;
+      display: block;
+      width: 60px;
+      height: 60px;
+      padding: 0;
+      border: none;
+      margin-top: 20px;
+      margin-right: 5px;
+      background: transparent;
+      color: #888;
+      font-family: 'Helvetica', sans-serif;
+      font-size: 40px;
+      line-height: 60px;
+    }
+
+    .input:focus {
+      outline: none;
+      border-color: #333;
+    }
+
+    .input:focus.submit {
+      color: #333;
+    }
+
+    .submit:hover {
+      color: #333;
+      cursor: pointer;
+    }
+
+    ::-webkit-input-placeholder {
+      color: #fff;
+      text-shadow: 2px 2px 4px #000;
+    }
+
+    input:-moz-placeholder {
+      color: #fff;
+      text-shadow: 2px 2px 4px #000;
+    }
+  }
+
+  .search-suggestions {
+    ul {
+      position: absolute;
+      max-height: 250px;
+      overflow-y: scroll;
+      overflow-x: hidden;
+      background: #f5f5f5;
+      padding: 0;
+      list-style-type: none;
+      cursor: pointer;
+      z-index: 6;
+      width: 84%;
+      margin: 0 5%;
+
+      li {
+        list-style: none;
+        padding: 10px;
+      }
+
+      li:hover {
+        background: #b3b3b3;
+      }
+    }
+  }
+
+  .search-engines {
+    list-style-type: none;
+    //padding: 5px;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+
+    li {
+      list-style: none;
+      display: inline-block;
+
+      //border: 1px solid red;
+      border-radius: 5px;
+      padding: 0 5px;
+      color: #fff;
+      font-weight: bold;
+      cursor: pointer;
+      margin: 5px 0;
+    }
+
+    [data-engine].selected {
+      background: #fff;
+      border: 2px solid;
+     }
+
+    [data-engine=google] {
+      background: #e1183a;
+    }
+
+    [data-engine=google].selected {
+      border-color: #e1183a;
+      color: #e1183a;
+    }
+
+    [data-engine=bing] {
+      background: #008071;
+    }
+
+    [data-engine=bing].selected {
+      border-color: #008071;
+      color: #008071;
+    }
+
+    [data-engine=yahoo] {
+      background: #690093;
+    }
+
+    [data-engine=yahoo].selected {
+      border-color: #690093;
+      color: #690093;
+    }
+
+    [data-engine=yandex] {
+      background: #e52620;
+    }
+
+    [data-engine=yandex].selected {
+      border-color: #e52620;
+      color: #e52620;
+    }
+
+    [data-engine=duckduckgo] {
+      background: #da4a26;
+    }
+
+    [data-engine=duckduckgo].selected {
+      border-color: #da4a26;
+      color: #da4a26;
+    }
+
+    [data-engine=youtube] {
+      background: #ff0000;
+    }
+
+    [data-engine=youtube].selected {
+      border-color: #ff0000;
+      color: #ff0000;
+    }
+
+    [data-engine=wikipedia] {
+      background: #000000;
+    }
+
+    [data-engine=wikipedia].selected {
+      border-color: #000000;
+      color: #000000;
+    }
+
+    [data-engine=amazon] {
+      background: #ff9900;
+    }
+
+    [data-engine=amazon].selected {
+      border-color: #ff9900;
+      color: #ff9900;
+    }
+
+    [data-engine=flipkart] {
+      background: #2874f0;
+    }
+
+    [data-engine=flipkart].selected {
+      border-color: #2874f0;
+      color: #2874f0;
+    }
+
+    [data-engine=stackoverflow] {
+      background: #f48024;
+    }
+
+    [data-engine=stackoverflow].selected {
+      border-color: #f48024;
+      color: #f48024;
+    }
+  }
+}

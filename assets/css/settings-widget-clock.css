@@ -1,0 +1,54 @@
+[data-page=settings-widget-clock] .colors tbody tr td {
+  padding: 5px;
+}
+[data-page=settings-widget-clock] .sub-title {
+  font-weight: bold;
+  text-decoration: underline;
+}
+[data-page=settings-widget-clock] .show-numerals i {
+  cursor: pointer;
+}
+[data-page=settings-widget-clock] .show-numerals i.fa-check-square {
+  display: none;
+}
+[data-page=settings-widget-clock] .show-numerals.selected i.fa-check-square {
+  display: initial;
+}
+[data-page=settings-widget-clock] .show-numerals.selected i.fa-square {
+  display: none;
+}
+[data-page=settings-widget-clock] .enable-alarm i {
+  cursor: pointer;
+}
+[data-page=settings-widget-clock] .enable-alarm i.fa-check-square {
+  display: none;
+}
+[data-page=settings-widget-clock] .enable-alarm.selected i.fa-check-square {
+  display: initial;
+}
+[data-page=settings-widget-clock] .enable-alarm.selected i.fa-square {
+  display: none;
+}
+[data-page=settings-widget-clock] .alarm-daily i {
+  cursor: pointer;
+}
+[data-page=settings-widget-clock] .alarm-daily i.fa-check-square {
+  display: none;
+}
+[data-page=settings-widget-clock] .alarm-daily.selected i.fa-check-square {
+  display: initial;
+}
+[data-page=settings-widget-clock] .alarm-daily.selected i.fa-square {
+  display: none;
+}
+[data-page=settings-widget-clock] .reset-container {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+[data-page=settings-widget-clock] .reset-container .reset {
+  text-decoration: none;
+}
+[data-page=settings-widget-clock] .notify {
+  font-size: small;
+  color: red;
+}

@@ -1,0 +1,94 @@
+[data-page=settings-theme] .colors td {
+  padding: 5px;
+}
+[data-page=settings-theme] .reset-container {
+  margin: 10px 5px;
+}
+[data-page=settings-theme] .theme-image {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+[data-page=settings-theme] .theme-image .theme-img-li {
+  list-style: none;
+  margin: 7px;
+  display: inline;
+  position: relative;
+  float: left;
+  cursor: pointer;
+}
+[data-page=settings-theme] .theme-image .theme-img-li .theme-img {
+  width: 660px;
+  height: 44px;
+}
+[data-page=settings-theme] .theme-image .theme-img-li .theme-select {
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  color: #ff6e40;
+}
+[data-page=settings-theme] .theme-image .theme-img-li .theme-select .fa-square {
+  display: none;
+  font-size: large;
+}
+[data-page=settings-theme] .theme-image .theme-img-li .theme-select .fa-check-square {
+  display: none;
+  font-size: large;
+}
+[data-page=settings-theme] .theme-image .theme-img-li .theme-select .fa-square:hover {
+  text-shadow: 2px 2px 4px #000;
+}
+[data-page=settings-theme] .theme-image .theme-img-li .theme-select .fa-check-square:hover {
+  text-shadow: 2px 2px 4px #000;
+}
+[data-page=settings-theme] .theme-image .theme-img-li.selected {
+  border: 2px solid #ff6e40;
+  margin: 5px;
+}
+[data-page=settings-theme] .theme-image .theme-img-li.selected .theme-select .fa-check-square {
+  display: block;
+}
+[data-page=settings-theme] .theme-image .theme-img-li:not(.selected):hover .theme-select .fa-square {
+  display: block;
+}
+[data-page=settings-theme] .theme-image .theme-img-li.theme-btn-add {
+  background: #c9c9c9;
+  width: 660px;
+  height: 44px;
+}
+[data-page=settings-theme] .theme-image .theme-img-li.theme-btn-add i {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  top: 32%;
+}
+[data-page=settings-theme] .theme-image .theme-img-li.theme-btn-add .width {
+  display: block;
+  text-align: center;
+  font-size: x-small;
+  padding-top: 25px;
+}
+[data-page=settings-theme] .theme-image .theme-img-li.theme-btn-add:hover {
+  background: #e0e0e0;
+}
+[data-page=settings-theme] .theme-image .theme-img-li.theme-btn-add:active {
+  width: 655px;
+  height: 40px;
+  margin-top: 9px;
+  margin-left: 10px;
+  background: #e0e0e0;
+}
+
+#cropper-modal {
+  padding: 10px;
+  margin-right: 10px;
+}
+#cropper-modal #crop-image {
+  width: 100%;
+}
+#cropper-modal .crop-button-container {
+  text-align: right;
+}
+#cropper-modal .crop-button-container .crop-button {
+  margin-top: 10px;
+}
